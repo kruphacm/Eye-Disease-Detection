@@ -160,7 +160,7 @@ if(l>=0 && l<=20){
      <p style="color: white; background-color: rgba(0,0,0,0.2);padding-left: 2%; ">Enter the Symptoms numbers based on the data given below<br>1:Cloudy vision/Blurred Vision<br>2:Sensitivity to light<br>3:Poor vision at night<br>4:Double vision<br>5:Eye pain<br>6:Red-eye<br>7:Vision Loss<br>8:Dry or watery eyes<br>9:burning or itching<br>10:Tired<br>11:Blurred vision for distant objects, near objects, or both<br>12:Headache<br>13:Irritation, itching<br>14:Foreign body sensation eye discomfort<br>15:Burning<br>16:Itching<br>17:Loss of vision<br>18:Blurred Vision<br>19:Discharge or stickiness</p>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post" style='color: white;  text-align:center; font-size: 150%;'>
+    <form action="{{ url_for('predict')}}"method="post" style='color: white;  text-align:center;'>
         <p>Enter the First Symptom:<input type="text" name="Enter the Symptom 1" placeholder="Enter the Symptom 1" required="required" /></p><br><br>
         <p>Enter the Second Symptom:<input type="text" name="Enter the Symptom 2" placeholder="Enter the Symptom 2" required="required" /></p><br><br>
         <p>Enter the Third Symptom:<input type="text" name="Enter the Sympotom 3" placeholder="Enter the Sympotom 3" required="required" /></p><br><br>
