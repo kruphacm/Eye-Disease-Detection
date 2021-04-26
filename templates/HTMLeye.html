@@ -107,9 +107,9 @@ function add()
   numThree= parseInt(document.getElementById("third").value);
   sum = ((numOne + numTwo +numThree)/3)*10; 
   l=sum;
-	if(sum!=NaN){
+	if(sum!=null){
        document.getElementById("answer").value = int(sum);}
- if(l===NaN){
+ if(l===null){
    document.getElementById("text").innerHTML ="please enter the values";}
 else if(l>=0 && l<=20){
         document.getElementById("text").innerHTML ="Consult a Doctor for Medication. Checkup is recommended.";}
